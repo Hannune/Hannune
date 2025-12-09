@@ -15,12 +15,15 @@
 
 I build **production-grade LLM infrastructure and applications** that run **100% locally** with **zero API costs**. From deploying 70+ local models to creating multi-agent systems and AI-powered news platforms - I specialize in making powerful AI accessible, private, and cost-effective.
 
-```ascii
-┌─────────────────────────────────────────────────────────┐
-│        💰 Zero API Costs | 🔒 Complete Privacy         │
-│        ⚡ Production Ready | 🎯 Battle Tested           │
-└─────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+![Zero API Costs](https://img.shields.io/badge/💰-Zero_API_Costs-00C7B7?style=for-the-badge)
+![Complete Privacy](https://img.shields.io/badge/🔒-Complete_Privacy-4285F4?style=for-the-badge)
+
+![Production Ready](https://img.shields.io/badge/⚡-Production_Ready-FF6F00?style=for-the-badge)
+![Battle Tested](https://img.shields.io/badge/🎯-Battle_Tested-76B900?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -42,21 +45,17 @@ I build **production-grade LLM infrastructure and applications** that run **100%
 ### 🏭 [LLM Infrastructure](https://github.com/Hannune/LLM-Infrastructure)
 **Production-grade infrastructure for running 70+ local LLM models**
 
-```
-┌────────────────┐
-│  Your App      │
-└───────┬────────┘
-        │
-┌───────▼──────────┐
-│ LiteLLM Gateway  │  ← Load balancing, fallbacks, metrics
-└───────┬──────────┘
-        │
-    ┌───┴────┬──────────┐
-    │        │          │
-┌───▼──┐ ┌──▼──┐  ┌───▼──┐
-│Ollama│ │Ollama│ │ vLLM │  ← 70+ models across servers
-└──────┘ └──────┘ └──────┘
-```
+> **Architecture**
+>
+> ```
+> Your App
+>    ↓
+> LiteLLM Gateway  ← Load balancing, fallbacks, metrics
+>    ↓
+>    ├─────────┬─────────┐
+>    │         │         │
+> Ollama    Ollama    vLLM  ← 70+ models across servers
+> ```
 
 **Components:**
 - 🚀 **Fleet Manager** - Manage 70+ models (Qwen, Llama, Granite, Mistral)
@@ -90,18 +89,20 @@ I build **production-grade LLM infrastructure and applications** that run **100%
 - 🏠 **Korean Real Estate AI** - Market analysis with government data
 - 🤖 **Agent Integration Examples** - Router patterns, MCP tools & A2A workflows
 
-```
-User Query → Supervisor Agent
-                ↓
-    ┌───────────┼───────────┐
-    │           │           │
-Research     Developer   Analysis
-Agent        Agent        Agent
-    │           │           │
-    └───────────┴───────────┘
-                ↓
-        Final Result (100% Local)
-```
+> **Multi-Agent Architecture**
+>
+> ```
+> User Query → Supervisor Agent
+>                   ↓
+>       ┌───────────┼───────────┐
+>       │           │           │
+>   Research    Developer   Analysis
+>    Agent       Agent        Agent
+>       │           │           │
+>       └───────────┴───────────┘
+>                   ↓
+>          Final Result (100% Local)
+> ```
 
 ---
 
@@ -152,8 +153,6 @@ Agent        Agent        Agent
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
 ### Infrastructure & Deployment
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -180,24 +179,23 @@ Agent        Agent        Agent
 ![Ghost](https://img.shields.io/badge/Ghost-000000?style=for-the-badge&logo=ghost&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-</div>
-
 ---
 
 ## 📊 Architecture Philosophy
 
-```
-┌─────────────────────────────────────────────────────┐
-│  🎯 Core Principles                                 │
-├─────────────────────────────────────────────────────┤
-│  ✅ 100% Local Execution - Zero API Dependencies   │
-│  ✅ Production Ready - Battle-tested in real use   │
-│  ✅ Privacy First - Your data stays on your infra  │
-│  ✅ Cost Optimized - Save 90-95% vs cloud APIs     │
-│  ✅ Hardware Optimized - Maximum GPU performance   │
-│  ✅ Modular Design - Reusable components           │
-└─────────────────────────────────────────────────────┘
-```
+### 🎯 Core Principles
+
+![100% Local Execution](https://img.shields.io/badge/✅_100%25_Local_Execution-Zero_API_Dependencies-00C7B7?style=for-the-badge)
+
+![Production Ready](https://img.shields.io/badge/✅_Production_Ready-Battle_tested_in_real_use-4285F4?style=for-the-badge)
+
+![Privacy First](https://img.shields.io/badge/✅_Privacy_First-Your_data_stays_on_your_infra-9C27B0?style=for-the-badge)
+
+![Cost Optimized](https://img.shields.io/badge/✅_Cost_Optimized-Save_90--95%25_vs_cloud_APIs-FF6F00?style=for-the-badge)
+
+![Hardware Optimized](https://img.shields.io/badge/✅_Hardware_Optimized-Maximum_GPU_performance-76B900?style=for-the-badge)
+
+![Modular Design](https://img.shields.io/badge/✅_Modular_Design-Reusable_components-E91E63?style=for-the-badge)
 
 ---
 
@@ -252,7 +250,7 @@ Not just demos - real applications serving real users:
 
 [![GitHub](https://img.shields.io/badge/GitHub-Hannune-181717?style=for-the-badge&logo=github)](https://github.com/Hannune)
 [![Website](https://img.shields.io/badge/Website-2asy.ai-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://2asy.ai)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hannune.tech@hotmail.com)
 
 </div>
 
