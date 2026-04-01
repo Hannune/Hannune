@@ -211,6 +211,14 @@ I build **production-grade LLM infrastructure and applications** that run **100%
 
 ---
 
+## 🎬 Demo
+
+[![Web Crawling → Structured Extraction → Knowledge Graph](https://img.youtube.com/vi/j5xz0k9i-LA/maxresdefault.jpg)](https://youtu.be/j5xz0k9i-LA)
+
+*Raw web page → Markdown → Structured data extraction → Neo4j knowledge graph — 100% local LLMs*
+
+---
+
 ## 🎯 What Makes My Work Unique
 
 ### 💰 **Cost Efficiency**
