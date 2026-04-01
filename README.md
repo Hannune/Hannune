@@ -217,6 +217,8 @@ I build **production-grade LLM infrastructure and applications** that run **100%
 
 *Raw web page → Markdown → Structured data extraction → Neo4j knowledge graph — 100% local LLMs*
 
+### Here's additional demo you can try on my [website](https://demo.hannune.ai).
+
 ---
 
 ## 🎯 What Makes My Work Unique
