@@ -2,7 +2,7 @@
 
 # Hi there, I'm Hannune 👋
 
-### 🚀 Building Production LLM Infrastructure & Applications
+### AI Engineer, Document Automation Without Broken Formatting
 
 [![GitHub followers](https://img.shields.io/github/followers/Hannune?style=social)](https://github.com/Hannune)
 [![Profile Views](https://komarev.com/ghpvc/?username=Hannune&color=blue)](https://github.com/Hannune)
@@ -13,7 +13,19 @@
 
 ## 💡 What I Do
 
-I build **production-grade LLM infrastructure and applications** that run **100% locally** with **zero API costs**. From deploying 70+ local models to creating multi-agent systems and AI-powered news platforms - I specialize in making powerful AI accessible, private, and cost-effective.
+Most companies still move documents by hand. Translating a 90-page manual. Pulling numbers out of a stack of PDFs. Checking whether the totals actually add up.
+
+The tools that exist do half the job. ChatGPT translates well and wrecks your layout. DeepL and Google break multi-column pages and complex tables. Document AI from the big clouds extracts fields but won't tell you when the line items don't reconcile with the summary on page 3.
+
+I build the other half.
+
+What I've built and run:
+- A format-preserving docx translation pipeline with translation memory, terminology control, and do-not-translate protection
+- A causal-chain research pipeline for trade and tariff documents (2asy.ai), around 2,400 articles a day
+- A multilingual entity-resolution API
+- Live demos: PDF Q&A and PDF-to-JSON extraction at demo.hannune.ai
+
+Before Hannune: LG Energy Solution, Scenera (Netflix, Sony, GS Retail). MS, Seoul National University. Two patents.
 
 <div align="center">
 
